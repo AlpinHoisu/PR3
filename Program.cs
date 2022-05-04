@@ -109,7 +109,7 @@ namespace PR3
                 Console.Write(num + " ");
             }
             Console.WriteLine();
-            Console.WriteLine("\nq - остановить производство.");
+            Console.WriteLine("\nq - остановить производство");
             await Task.Delay(500);
             if (Threader.ConsumersAlive == 0) {
                 Console.Clear();
